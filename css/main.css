@@ -164,13 +164,15 @@ table th {
 	background-color: #000;
 }
 form .field {
-	padding-top: 0px;
-	padding-right: 5px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
 }
-form .label {
+form label {
 	font-weight: bold;
+	display: block;
 }
 form .textfield, form textarea, form select {
 	border: 1px solid #0FF;
